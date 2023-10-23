@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(141, 157, 165);
+    text-align: center;
+    font-size: inherit;
+}
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: whitesmoke;
+    box-shadow: 2px 5px 10px rgba(0,0, 0, 0.5);
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 5px 10px rgba(0,0, 0, 0.5);
+    
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-control input{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #702323;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+}
+.form-control select{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #702323;
+    border-radius: 5px;
+    font-family: inherit;
+    display: block;
+}
+.form-control select option{
+    font-size: 15px;
+ }
+.form-control textarea{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    display: block;
+}
+.form-control input[type="radio"]{
+    display: inline-block;
+    width: auto;
+}
+.form-control input[type="checkbox"]{
+    width: auto;
+    display: inline-block;
+}
+button{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background: red;
+}
